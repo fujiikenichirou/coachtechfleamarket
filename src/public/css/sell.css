@@ -1,0 +1,60 @@
+.sell-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.sell-form__heading {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 25%;
+}
+
+.form__group {
+    margin-bottom: 20px;
+}
+
+.form__group-title {
+    text-align: left;
+    border-bottom: 2px;
+}
+
+.upload-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.upload-label {
+    background-color: transparent;
+    color: #ff2222;
+    padding: 10px 20px;
+    border: 2px solid #ff2222;
+    border-radius: 5px ;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.merchandise-name__input {
+    width: 100%;
+}
+
+.merchandise-about__input {
+    width: 100%;
+}
+
+.merchandise-price__input {
+    width: 100%;
+}

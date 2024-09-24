@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MerchandiseController;
 
 
 Route::get('/', function () {
@@ -14,3 +15,6 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('auth.register');
 });
+
+
+Route::get('/sell', [MerchandiseController::class, 'create']);
